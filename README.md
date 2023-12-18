@@ -1,4 +1,4 @@
-In this Assignment we create an empty list. This list will later store a customer's order in dictionary format, as follows:
+In this Assignment we wil create an interactive ordering system from a food truck menu, using the skills you've learned in Python so far.we create an empty list. This list will later store a customer's order in dictionary format, as follows:
 
 [
   {
