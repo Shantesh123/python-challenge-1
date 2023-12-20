@@ -71,7 +71,7 @@ menu_items = {}
     # Print the options to choose from menu headings (all the first level 
     # dictionary items in menu).
 for key in menu.keys():
-        print(f"{i}: {key}")
+        #print(f"{i}: {key}")
         # Store the menu category associated with its menu item number
         menu_items[i] = key
         # Add 1 to the menu item number
@@ -152,8 +152,8 @@ for key, value in menu.items():
 customer_order_list=[]
 price_list=[]
 
-for items in orders_list:
-     print(items)
+#for items in orders_list:
+#     print(items)
 
 customer_menu_input = input("select item # from the menu :" )
 customer_quantity = int(input('Enter the quanity: ') or 1)
@@ -281,7 +281,7 @@ for customers_orders in customer_order_list:
 # and print the prices.
 tuple_cust = [(customer_order_list["Price"] * customer_order_list["Quantity"]) for customer_order_list in customer_order_list]
 
-print(f"here are the individual total prices for items {tuple_cust}\n")
+#print(f"here are the individual total prices for items {tuple_cust}\n")
 
 # Use a list comprehension to calculate the total number of adult guests
 total_cust_bill = sum([tuple_cust for tuple_cust in tuple_cust])
